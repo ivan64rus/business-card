@@ -1,0 +1,136 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    }
+h1{
+    font-size:7vw ;
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+   
+}
+
+div.head-menu{
+    width: 100vw; 
+    height: 10vw;
+    display: flex;
+    flex-basis: 4%;
+    justify-content: space-around;
+
+}
+div.logo{
+    
+}
+div.name{
+   
+}
+h2 {
+	position:absolute;
+	top		: 270px;
+	left: 850px;
+}
+
+p{
+    font-size: 40px;
+}
+
+div.page_face{
+    background-repeat:  no-repeat;
+    background-size: contain;
+    display:flex;
+}
+div.page_face_text{
+    font-size: 65px;
+}
+div.body_page{
+    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+  padding: 0% 2%;
+}
+div.Block_header{
+    align-items: center;
+    justify-content: center;
+     padding: 2%;
+ 
+}
+
+div.advantages{
+    display: flex;
+    justify-content:space-around;
+    
+ }   
+div.advantages_1{
+    flex: 1;
+}
+h3{
+    color #9e9e9e;
+    font-size: 50px;
+}
+div.services{
+    display: flex;
+    justify-content: space-around;
+}
+div.services_1{
+    flex: 1; 
+    
+}
+div.contact{
+ 
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    
+    
+
+}
+div.contact_1{
+width:15%;
+align-items: center;
+justify-content: space-around;
+
+
+}
+img.image_contact{
+    width: 30%;
+}
+div.footer{
+   
+}
+p.text_size{
+font-size: 150%;
+
+}
+.navi{
+display: flex;
+
+
+
+}
+.sss{
+    border: none;
+    border-radius: 20px;
+    padding:  20px;
+    background:linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    list-style-type: none;
+
+    margin: 6px 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.services_2{
+    display: flex;
+    justify-content: space-around;
+}
+.services_text{
+    width: 33.33%;
+    flex-wrap: wrap;
+}
