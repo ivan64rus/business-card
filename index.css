@@ -12,21 +12,32 @@ html {
   scroll-behavior: smooth;
 }
 
-h1 {
-    font-size: 5rem;
-    background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.wrapper {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.header__title {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
+    clip-path: inset(0px 0px 99.9% 99.9%);
+    overflow: hidden;
+    height: 1px;
+    width: 1px;
+    padding: 0;
+    border: 0;
 }
 
 .header {
-    padding: 11px 0px 10px 0px;
+    width: 100%;
+    background: azure;
 }
 
-.header__menu {
-    width: 100%;
+.header__wrapper {
+    padding: 10px 20px 10px 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -36,49 +47,67 @@ h1 {
 }
 
 .list__item {
-  border: none;
   border-radius: 20px;
   background:linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
   cursor: pointer;
   text-transform: uppercase;
   font-weight: bold;
   list-style-type: none;
+  margin-right: 16px;
+}
+
+.list__item:last-child {
+  margin-right: 0;
 }
 
 .list__link {
   display: inline-block;
   width: 100%;
+  padding: 10px 0 10px 0px;
 }
 
 .list {
   display: flex;
 }
 
-
-
-
-
-
-
-
-h2 {
-	position:absolute;
-	top		: 270px;
-	left: 850px;
+.list__text {
+    padding-left: 20px;
+    padding-right: 20px;
 }
+
+.slogan__wrapper {
+position: relative;
+}
+
+.slogan__img {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   background: url('./img/camera.jpeg') no-repeat;
+   width: 100%;
+    height: 511px;
+    background-size: contain;
+}
+
+.slogan__text {
+    font-size: 4.4rem;
+    color: #ffffff;
+    max-width: 332px;
+    width: 100%;
+    margin-right: 54px;
+}
+
+@media (max-width: 1020px){
+    .slogan__img {
+         height: 50vw;
+     }
+}
+
+
+
 
 p {
   font-size: 40px;
-}
-
-div.page_face {
-    background-repeat:  no-repeat;
-    background-size: contain;
-    display:flex;
-}
-
-div.page_face_text {
-    font-size: 65px;
 }
 
 div.body_page {
