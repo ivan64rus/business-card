@@ -7,6 +7,9 @@ time, mark, audio, video {
     border: 0;
     }
 
+    * {
+        box-sizing: border-box;
+    }
 html {
   font-size: 10px;
   scroll-behavior: smooth;
@@ -76,69 +79,73 @@ html {
 }
 
 .slogan__wrapper {
-position: relative;
+    position: relative;
 }
 
 .slogan__img {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-   background: url('./img/camera.jpeg') no-repeat;
-   width: 100%;
-    height: 511px;
-    background-size: contain;
+    width: 100%;
+    height: auto;
 }
 
 .slogan__text {
+    position: absolute;
     font-size: 4.4rem;
     color: #ffffff;
     max-width: 332px;
     width: 100%;
     margin-right: 54px;
+    top: calc(50% - 102px);
+    right: 0px;
 }
 
-@media (max-width: 1020px){
-    .slogan__img {
-         height: 50vw;
-     }
+.our-advantages__title {
+    color: #ffffff;
+    font-size: 43px;
+    padding: 20px 0 20px 0px;
 }
 
-
-
-
-p {
-  font-size: 40px;
+.our-advantages__img {
+    width: 100%;
+    height: auto;
+    min-width: 224px;
 }
 
-div.body_page {
+.our-advantages {
     background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-    padding: 0% 2%;
+    margin: -2px;
 }
 
-div.Block_header {
-    align-items: center;
-    justify-content: center;
-     padding: 2%;
+.advantages_item {
+    flex: 1 0 25%;
 }
 
-div.advantages {
+.advantages_item:nth-child(2) {
+    margin: 0px 25px;
+}
+
+.our-advantages__text {
+    font-size: 19px;
+    color: #ffffff;
+} 
+
+
+
+.advantages {
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }   
-div.advantages_1 {
-    flex: 1;
-}
-
-h3 {
-    color: #9e9e9e;
-    font-size: 50px;
-}
 
 div.services {
     display: flex;
     justify-content: space-around;
 }
 
+div.Block_header {
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
 div.services_1 {
     flex: 1; 
 }
@@ -153,7 +160,7 @@ div.contact_1 {
     width:15%;
     align-items: center;
     justify-content: space-around;
-
+    
 }
 
 img.image_contact {
@@ -161,12 +168,9 @@ img.image_contact {
 }
 
 div.footer {
-   
+    
 }
 
-p.text_size {
-    font-size: 150%;
-}
 
 .navi{
     display: flex;
