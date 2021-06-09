@@ -67,6 +67,9 @@ html {
   display: inline-block;
   width: 100%;
   padding: 10px 0 10px 0px;
+  color: #ffffff;
+  text-decoration:none ;
+  font-size: 13px;
 }
 
 .list {
@@ -127,8 +130,11 @@ html {
     font-size: 19px;
     color: #ffffff;
 } 
-
-
+.our-contact__title{
+    font-size: 43px;
+    padding: 20px 0 20px 0px;
+    color: #000000;   
+}
 
 .advantages {
     display: flex;
@@ -136,16 +142,6 @@ html {
     flex-wrap: wrap;
 }   
 
-div.services {
-    display: flex;
-    justify-content: space-around;
-}
-
-div.Block_header {
-    align-items: center;
-    justify-content: center;
-    padding: 2%;
-}
 div.services_1 {
     flex: 1; 
 }
@@ -162,31 +158,10 @@ div.contact_1 {
     justify-content: space-around;
     
 }
-
 img.image_contact {
-    width: 30%;
+    width: 50%;
 }
-
-div.footer {
-    
-}
-
-
-.navi{
-    display: flex;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-}
-
-.services_2 {
-    display: flex;
-    justify-content: space-around;
-}
-
-.services_text {
-    width: 33.33%;
-    flex-wrap: wrap;
+.text_size{
+font-size: 23px;
+flex-wrap: wrap;
 }
