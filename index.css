@@ -7,12 +7,13 @@ time, mark, audio, video {
     border: 0;
     }
 
-    * {
-        box-sizing: border-box;
-    }
+* {
+    box-sizing: border-box;
+}
+
 html {
-  font-size: 10px;
-  scroll-behavior: smooth;
+    font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 .wrapper {
@@ -69,7 +70,7 @@ html {
   padding: 10px 0 10px 0px;
   color: #ffffff;
   text-decoration:none ;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 
 .list {
@@ -103,19 +104,19 @@ html {
 
 .our-advantages__title {
     color: #ffffff;
-    font-size: 43px;
+    font-size: 4.3rem;
     padding: 20px 0 20px 0px;
 }
 
 .our-advantages__img {
     width: 100%;
     height: auto;
-    min-width: 224px;
+    min-width: 260px;
 }
 
 .our-advantages {
     background: linear-gradient(45deg, #0B2349 33%, #0D61BC 66%, #8AA9D6);
-    margin: -2px;
+    padding-bottom: 40px;
 }
 
 .advantages_item {
@@ -127,11 +128,12 @@ html {
 }
 
 .our-advantages__text {
-    font-size: 19px;
+    padding-top: 6px;
+    font-size: 1.9rem;
     color: #ffffff;
 } 
-.our-contact__title{
-    font-size: 43px;
+.footer__title{
+    font-size: 4.3rem;
     padding: 20px 0 20px 0px;
     color: #000000;   
 }
@@ -142,26 +144,31 @@ html {
     flex-wrap: wrap;
 }   
 
-div.services_1 {
+.services_1 {
     flex: 1; 
 }
 
-div.contact{
-    display: flex;
-    justify-content: space-around;
-    background-color: white;
+
+.footer {
+    background: azure;
+    padding-bottom: 30px;
 }
 
-div.contact_1 {
-    width:15%;
-    align-items: center;
-    justify-content: space-around;
-    
+.contact {
+    display: flex;
+    justify-content: space-between;
+    background: azure;
 }
-img.image_contact {
-    width: 50%;
+
+.contact-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
-.text_size{
-font-size: 23px;
-flex-wrap: wrap;
+
+.contact-item__text{
+    font-size: 2.3rem;
+    flex-grow: 1;
+    text-align: center;
 }
